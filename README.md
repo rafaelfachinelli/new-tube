@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img alt="NewTube" src=".github/banner.svg" width="400px"/>
+</p>
 
-## Getting Started
+<p align="center">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/new-tube?color=3498db&style=for-the-badge">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/new-tube?color=3498db&style=for-the-badge">
+  <a href="https://rafaelfachinelli.com">
+    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-3498db?style=for-the-badge">
+  </a>
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-3498db?style=for-the-badge">
+</p>
 
-First, run the development server:
+<p align="center">
+  <a href="#information_source-about">About</a> •
+  <a href="#memo-tasks">Tasks</a> •
+  <a href="#arrow_forward-run">Run</a> •
+  <a href="#hammer_and_wrench-technologies">Technologies</a> •
+  <a href="#boy-author">Author</a> •
+  <a href="#balance_scale-license">License</a>
+</p>
+
+---
+
+## :information_source: About
+
+📺 A YouTube clone in progress, with the Next.js App Router and shadcn/ui. So far it has the home layout: a navbar with the logo, search input and sign-in button, and a collapsible sidebar with the main and personal sections. The code is organized by feature modules (`src/modules/<feature>/ui`).
+
+Started in 2025.
+
+---
+
+## :memo: Tasks
+
+<div align="center">
+<details>
+<summary>Click to view</summary>
+
+|State|Task|
+|:---:|:---|
+|:heavy_check_mark:|Next.js project with Tailwind CSS and shadcn/ui|
+|:heavy_check_mark:|Home layout|
+|:heavy_check_mark:|Navbar with search input and auth button|
+|:heavy_check_mark:|Sidebar with main and personal sections|
+|:x:|Authentication|
+|:x:|Video upload and playback|
+|:x:|Video feed|
+
+</details>
+</div>
+
+---
+
+## :arrow_forward: Run
+
+You need [Node.js](https://nodejs.org/). In the project folder:
 
 ```bash
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> The app opens at <http://localhost:3000>.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## :hammer_and_wrench: Technologies
 
-## Learn More
+<div align="center">
 
-To learn more about Next.js, take a look at the following resources:
+|Web|
+|:---:|
+|[Next.js](https://nextjs.org/)|
+|[React](https://react.dev/)|
+|[TypeScript](https://www.typescriptlang.org/)|
+|[Tailwind CSS](https://tailwindcss.com/)|
+|[shadcn/ui](https://ui.shadcn.com/)|
+|[Radix UI](https://www.radix-ui.com/)|
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+</div>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## :boy: Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<div align="center">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<a href="https://rafaelfachinelli.com">
+  <img src="https://github.com/rafaelfachinelli.png" width="100px" alt="Rafael Fachinelli"/>
+  <br/>
+  <sub><b>Rafael Fachinelli</b></sub>
+</a>
+
+Tech Lead and software engineer. Get in touch!
+
+[![Portfolio](https://img.shields.io/badge/-rafaelfachinelli.com-3498db?style=flat-square&logo=googlechrome&logoColor=white)](https://rafaelfachinelli.com)
+[![LinkedIn](https://img.shields.io/badge/-Rafael_Fachinelli-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelfachinelli/)
+[![GitHub](https://img.shields.io/badge/-rafaelfachinelli-000?style=flat-square&logo=github&logoColor=white)](https://github.com/rafaelfachinelli)
+[![E-mail](https://img.shields.io/badge/-rafael.l.a.fachinelli@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:rafael.l.a.fachinelli@gmail.com)
+
+</div>
+
+---
+
+## :balance_scale: License
+
+This project is under the [MIT license](./LICENSE).
